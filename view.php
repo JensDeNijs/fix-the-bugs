@@ -48,7 +48,7 @@
 <form method="post" id="create-user">
     <h2><?php echo $saveLabel?></h2>
 
-    <input type="hidden" name="id" value="<?php echo $selectedUser['id']?>" />
+    <input type="" name="id" value="<?php echo $selectedUser['id']?>" />
 
     <label for="firstname">First name:</label>
     <input type="text" name="firstname" id="firstname" required value="<?php echo htmlspecialchars($selectedUser['firstname']) ?>"/>
